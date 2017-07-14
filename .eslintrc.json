@@ -6,8 +6,11 @@
     "plugin:import/warnings"
   ],
   "parserOptions": {
-    "ecmaVersion": 7,
-    "sourceType": "module"
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "env": {
     "browser": true,
